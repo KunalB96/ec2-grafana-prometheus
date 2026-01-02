@@ -82,8 +82,8 @@ http://<EC2-PUBLIC-IP>:3000
 ### SCP from Local Machine (macOS/Linux)
 
 ```bash
-scp -i /Users/atul/Downloads/grafana.pem \
-/Users/atul/Downloads/prometheus-3.9.0-rc.0.linux-amd64.tar.gz \
+scp -i /Users/KUNAL/Downloads/grafana.pem \
+/Users/KUNAL/Downloads/prometheus-3.9.0-rc.0.linux-amd64.tar.gz \
 ec2-user@ec2-107-23-150-235.compute-1.amazonaws.com:/home/ec2-user/
 ```
 
@@ -211,16 +211,5 @@ http://<EC2-PUBLIC-IP>:9090
 
 ---
 
-## 👨‍💻 Author
 
-**Atul Kamble**
-
-- 💼 [LinkedIn](https://www.linkedin.com/in/atuljkamble)
-- 🐙 [GitHub](https://github.com/atulkamble)
-- 🐦 [X](https://x.com/Atul_Kamble)
-- 📷 [Instagram](https://www.instagram.com/atuljkamble)
-- 🌐 [Website](https://www.atulkamble.in)
-
-
----
 
